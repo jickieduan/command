@@ -1,0 +1,20 @@
+git config --global user.name "name" 配置用户名
+git config --global user.email "email" 配置邮箱
+
+git init 初始化一个git版本库
+git add <file> 添加文件
+git commit -m "注释" 将缓冲区内容同步到版本库
+git status 查看当前版本库状态
+git diff <file> 查看具体修改
+git log 查看版本库日志
+git reflog 命令记录
+git reset --hard commit_id 退回以前版本
+git checkout -- file 丢弃工作区的修改
+git reset HEAD file 撤销暂存区的修改
+git rm 从版本库中删除文件
+
+ssh-keygen -t rsa -C "email" 创建ssh key
+git remote add origin path 将版本库同步到github
+git push [-u] prigin master 同步到github,-u 第一次同步
+git clone path 从github克隆版本库
+
